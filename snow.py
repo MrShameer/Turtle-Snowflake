@@ -1,9 +1,9 @@
 import turtle
 scr = turtle.Screen()
 t=turtle.Turtle()
-t.speed(10)
-n,stage=150,4
-b=3 #ubah branch untuk bentuk lain2
+t.speed(100)
+n,stage=150,5
+b=5 #ubah branch untuk bentuk lain2
 def star(h,s):
 	if s>0:
 		for i in range(b):
